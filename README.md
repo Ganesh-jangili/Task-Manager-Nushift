@@ -24,9 +24,9 @@ All routing logic is written directly inside route files (`routes/users.js` and 
 
 ---
 ..............................................................................
-# 🧩 Database Models
+#  Database Models
 
-## 🟦 User Model  
+##  User Model  
 (Location: `models/User.js`)  
 Fields: :contentReference[oaicite:0]{index=0}
 
@@ -41,7 +41,7 @@ Fields: :contentReference[oaicite:0]{index=0}
 - phone
 - profileCompletion *(auto-calculated)*
 .....................................................................................
-### ✔ Profile Completion Logic  
+###  Profile Completion Logic  
 Defined in: `models/profilecompletion.js`  
 Referenced from: `User.js` pre-save & post-update hooks
 
